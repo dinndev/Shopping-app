@@ -1,0 +1,140 @@
+body {
+   background-color: #F2F7FE;
+   color: #Aca7ad;
+}
+
+*{
+   box-sizing: border-box;
+}
+.sample-pics img {
+   object-fit: contain;
+   height: 2rem;
+}
+
+
+.nav-list li{
+   font-size: 1rem
+}
+input {
+  background-color: #E4EEFF;
+  color: #a2bade ;
+}
+.status-nav li {
+   font-size: 1rem
+   
+}
+.overview ,.clients ,.accounts {
+   margin-right: 3.5rem
+}
+
+.manage {
+   color: #2e3cb4;
+}
+.nav-active {
+   font-weight: bold;
+   color: #2e3cb4;
+   border-bottom: 2px #2e3cb4 solid;
+}
+.card-nav svg {
+   color: #2e3cb4;
+}
+.client {
+   background-color: #14d2ff;
+   color: white;
+}
+.turnover {
+   background-color: #2e3cb4;
+   color: white;
+}
+
+.sample-pics img {
+   width: 2.5rem;
+   height: 2.5rem;
+   object-fit: contain;
+}
+
+.earnings h2 {
+   color: #2e3cb4;
+   font-size: 1.8rem;
+   
+}
+
+.left ,.right {
+   color: #2e3cb4;
+}
+.slide-control span{
+   color: #2e3cb4;
+}
+
+.up-right{
+   color: #2e3cb4;
+}
+
+.title {
+   color: #383b57;
+}
+.title-support {
+   color: #Aca7ad;
+
+}
+
+.user-content {
+   background-color: #e4eeff;
+}
+.admin {
+   color: #383b57;
+
+}
+.top-right {
+   color: #2e3cb4;
+
+}
+
+.projects {
+   background-color: #c7f4ff;
+}
+
+.project-card,
+.completed-card {
+   margin-bottom: .6rem;
+}
+.desc {
+   font-size: .2rem;
+}
+
+.completed {
+   background-color: #fee5d4;
+}
+
+.earned {
+   background-color: #d8dcf7;
+}
+.upgrade {
+   color: #e4eeff;
+   background-color: #2e3cb4;
+}
+.add-desc span{
+   color: #2e3cb4;
+}
+
+.man {
+   top: -25%;
+}
+
+.nav-list li:hover {
+   color: #2e3cb4;
+}
+.status-nav li:hover{
+   color: #2e3cb4;
+}
+
+.analytics-nav {
+   color: #2e3cb4;
+}
+.analytics-nav select{
+   color: #d0d1d1; 
+   background-color: white;
+}
+.images-slide {
+   transition: all 0.3s ease-in-out;
+}
