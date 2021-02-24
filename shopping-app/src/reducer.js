@@ -1,5 +1,6 @@
 export const ACTION = {
   SET_ITEMS: "set-items",
+  ADD_TO_CART: "add-to-cart",
 };
 
 export const reducer = (state, action) => {
@@ -9,6 +10,11 @@ export const reducer = (state, action) => {
         ...state,
         items: action.items,
       };
+    case ACTION.ADD_TO_CART:
+      return {
+        ...state,
+        cart: action.cart,
+      };
     default:
       return state;
   }
@@ -16,4 +22,5 @@ export const reducer = (state, action) => {
 
 export const initialState = {
   items: [],
+  cart: [],
 };
